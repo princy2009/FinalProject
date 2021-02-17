@@ -21,7 +21,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name = "home"),
     path('search',views.search,name = "search"),
-    path('login',include('accounts.urls'))
+    #path('search',naukri.search,name = "search"),
+
+
+    path('accounts/',include('accounts.urls')),
+
 ]
 
 

@@ -441,7 +441,7 @@ input {
 }
 
 .card-1 .card-heading {
-  background: url("{% static '/assets/images/bg-head-02.jpg' %}') center center/cover no-repeat;
+  background: url("{% static 'images/bg-head-02.jpg' %}") center center/cover no-repeat;
   padding-top: 210px;
 }
 
@@ -451,6 +451,7 @@ input {
   padding-bottom: 65px;
 }
 
+
 @media (max-width: 767px) {
   .card-1 .card-body {
     padding: 0 40px;
@@ -458,3 +459,39 @@ input {
     padding-bottom: 40px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
