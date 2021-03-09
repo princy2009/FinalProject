@@ -141,6 +141,11 @@ input[type=submit] {
                      <br>
 
                      <input id="myInput" type="text" name="myCountry" placeholder="City">
+                     <br>
+                     <input id="jt" type="text" name="jt" placeholder="Job Type">
+                     <br>
+
+
 
                  </div>
              <input type="submit">
@@ -256,6 +261,8 @@ autocomplete(document.getElementById("Tech"), techs);
 
                 <!--
                 End of Autocomplete Code By using javascript
+                 <h5>Salary :- {{d}}</h5>
+                <h5>Posted :- {{e}}</h5>
                 -->
 
                        <br><br>
@@ -264,10 +271,14 @@ autocomplete(document.getElementById("Tech"), techs);
                     <br><hr>
 
 
+
                 {% for a,b,c,d in jobs %}
+
                 <h5>Title :- {{a}}</h5>
                 <h5>Company :- {{b}}</h5>
                 <h5>Location :- {{c}}</h5>
+
+
                 <a href="{{d}}"><h5>Apply </h5></a>
                 <hr>
                 {% endfor %}
