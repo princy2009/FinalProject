@@ -11,7 +11,7 @@ def login(request):
         #password = request.POST.get('password')
         password = request.POST['password']
         print(password)
-        user = auth.authenticate(username=musername , password=password)
+        user = auth.authenticate(username=musername ,password=password)
         print("user is",user)
 
         if user is  None:
